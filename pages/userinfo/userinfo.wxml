@@ -1,0 +1,29 @@
+<!--pages/userinfo/userinfo.wxml-->
+<view class="nav" style="padding-top:{{navh}}rpx;background:#63C2F9">个人信息</view>
+<view class="head">
+  <image src="/images/head.png" />
+  <text>Yoo</text>
+</view>
+<view class="info">
+  <view class="info_box">
+    <text>姓名</text>
+    <input placeholder="Yoo" />
+  </view>
+  <view class="info_box">
+    <text>微信号</text>
+    <input placeholder="微信号" />
+  </view>
+  <view class="info_box">
+    <text>公司码</text>
+    <input placeholder="65542211578412341" />
+  </view>
+  <view class="info_box">
+    <text>手机号</text>
+    <input placeholder="15879334133" />
+  </view>
+  <view class="info_box">
+    <text>性别</text>
+    <input placeholder="未知" />
+  </view>
+</view>
+<button class="btn">保存</button>

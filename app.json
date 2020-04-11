@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/enterlibrary/enterlibrary",
+    "pages/outlibrary/outlibrary",
+    "pages/library/library",
+    "pages/order/order",
+    "pages/user/user",
+    "pages/perfectinfo/perfectinfo",
+    "pages/test/test",
+    "pages/search/search",
+    "pages/enterrecord/enterrecord",
+    "pages/outrecord/outrecord",
+    "pages/transaction/transaction",
+    "pages/userinfo/userinfo",
+    "pages/news/news",
+    "pages/login/login",
+    "pages/codelogin/codelogin",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "selectedIconPath": "images/indexS.png",
+        "iconPath": "images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/newsS.png",
+        "iconPath": "images/news.png",
+        "pagePath": "pages/news/news",
+        "text": "消息"
+      },
+      {
+        "selectedIconPath": "images/userS.png",
+        "iconPath": "images/user.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
